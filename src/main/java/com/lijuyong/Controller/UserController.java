@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import com.lijuyong.Domain.Model.*;
 
+import javax.servlet.http.HttpServletRequest;
 import java.util.Date;
 import java.util.List;
 
@@ -51,4 +52,19 @@ public class UserController {
         return  linkDO;
 
     }
+
+    @RequestMapping("/setsession")
+    public SessionData setSession(HttpServletRequest request){
+        SessionData sessionData = new SessionData("lijuyong","123456");
+        request.getSession().setAttribute("sessionData",sessionData);
+        return sessionData;
+
+    }
+
+    @RequestMapping("/getsession")
+    public SessionData getSession(HttpServletRequest request){
+        return  (SessionData)request.getSession().getAttribute("sessionData");
+    }
+
+
 }
