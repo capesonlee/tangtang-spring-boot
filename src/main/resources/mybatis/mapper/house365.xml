@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.lijuyong.Domain.dao.mapper.House365Mapper">
+    <select id="listUrl" resultType="com.lijuyong.Domain.dao.model.LinkDO">
+        select url,crawl_time from house365
+    </select>
+    <select id="findUrls" parameterType="String" resultType="com.lijuyong.Domain.dao.model.LinkDO">
+
+        SELECT url,crawl_time FROM house365 where url like  CONCAT('%',#{urlId},'%')
+    </select>
+</mapper>
