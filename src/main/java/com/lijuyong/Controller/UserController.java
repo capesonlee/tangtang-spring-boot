@@ -70,6 +70,10 @@ public class UserController {
     public JsonResult forbidden(){
         return  new JsonResult(403,"登录失败啦");
     }
+    @RequestMapping("/hello")
+    public JsonResult hello(){
+        return  new JsonResult(403,"这是一个伟大的开端");
+    }
 
 
 }
