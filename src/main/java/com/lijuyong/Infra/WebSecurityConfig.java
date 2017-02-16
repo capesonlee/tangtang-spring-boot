@@ -24,9 +24,13 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .and()
                 .formLogin()
                 .loginPage("/login")
+                .failureForwardUrl("/user/forbidden")
                 .permitAll()
                 .and()
                 .logout()
+                .logoutUrl("/security/logout")
+                .invalidateHttpSession(true)
+                .deleteCookies()
                 .permitAll();
     }
 

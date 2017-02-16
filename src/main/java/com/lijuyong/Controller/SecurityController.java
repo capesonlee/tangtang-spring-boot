@@ -16,4 +16,9 @@ public class SecurityController {
         return new JsonResult(123,"好啦");
     }
 
+    @RequestMapping("/logout")
+    public JsonResult logout(){
+        return  new JsonResult(312,"退出成功");
+    }
+
 }

@@ -66,5 +66,10 @@ public class UserController {
         return  (SessionData)request.getSession().getAttribute("sessionData");
     }
 
+    @RequestMapping("/forbidden")
+    public JsonResult forbidden(){
+        return  new JsonResult(403,"登录失败啦");
+    }
+
 
 }
