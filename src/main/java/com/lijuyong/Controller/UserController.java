@@ -53,6 +53,10 @@ public class UserController {
 
     }
 
+
+
+    
+
     @RequestMapping("/setsession")
     public SessionData setSession(HttpServletRequest request){
         SessionData sessionData = new SessionData("lijuyong","123456");
