@@ -78,6 +78,13 @@ public class UserController {
     public JsonResult forbidden(){
         return  new JsonResult(403,"登录失败啦");
     }
+
+    @RequestMapping("/logtest")
+    public JsonResult logtest(){
+        throw  new  IllegalArgumentException("这个是一个测试日志的异常");
+        //return  new JsonResult(403,"异常验证");
+    }
+
     @RequestMapping("/hello")
     public JsonResult hello(){
         log.info("这是一个简单的日志");

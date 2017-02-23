@@ -1,0 +1,216 @@
+2017-02-23 22:18:53.909  INFO 16944 --- [main] com.lijuyong.TangtangApplication         : Starting TangtangApplication on DESKTOP-GTCTV3N with PID 16944 (E:\phabricator\tangtang-spring-boot\target\classes started by john in E:\phabricator\tangtang-spring-boot)
+2017-02-23 22:18:53.914  INFO 16944 --- [main] com.lijuyong.TangtangApplication         : No active profile set, falling back to default profiles: default
+2017-02-23 22:18:54.343  INFO 16944 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1083826: startup date [Thu Feb 23 22:18:54 CST 2017]; root of context hierarchy
+2017-02-23 22:18:55.324  INFO 16944 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-02-23 22:18:55.775  INFO 16944 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration' of type [class org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-02-23 22:18:55.870  INFO 16944 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'validator' of type [class org.springframework.validation.beanvalidation.LocalValidatorFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-02-23 22:18:55.904  INFO 16944 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d9eb2000] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-02-23 22:18:56.116  INFO 16944 --- [main] org.eclipse.jetty.util.log               : Logging initialized @3294ms to org.eclipse.jetty.util.log.Slf4jLog
+2017-02-23 22:18:56.298  INFO 16944 --- [main] e.j.JettyEmbeddedServletContainerFactory : Server initialized with port: 8080
+2017-02-23 22:18:56.299  INFO 16944 --- [main] org.eclipse.jetty.server.Server          : jetty-9.4.1.v20170120
+2017-02-23 22:18:56.475  INFO 16944 --- [main] org.eclipse.jetty.server.session         : DefaultSessionIdManager workerName=node0
+2017-02-23 22:18:56.476  INFO 16944 --- [main] org.eclipse.jetty.server.session         : No SessionScavenger set, using defaults
+2017-02-23 22:18:56.480  INFO 16944 --- [main] org.eclipse.jetty.server.session         : Scavenging every 600000ms
+2017-02-23 22:18:56.487  INFO 16944 --- [main] application                              : Initializing Spring embedded WebApplicationContext
+2017-02-23 22:18:56.487  INFO 16944 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2150 ms
+2017-02-23 22:18:56.800  INFO 16944 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-02-23 22:18:56.801  INFO 16944 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'springSessionRepositoryFilter' to: [/*]
+2017-02-23 22:18:56.801  INFO 16944 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-02-23 22:18:56.801  INFO 16944 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-02-23 22:18:56.801  INFO 16944 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-02-23 22:18:56.802  INFO 16944 --- [main] .s.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2017-02-23 22:18:56.802  INFO 16944 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-02-23 22:18:57.212  INFO 16944 --- [main] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.c.e.j.JettyEmbeddedWebAppContext@104d4b{/,file:///C:/Users/john/AppData/Local/Temp/jetty-docbase.6852252241066476260.8080/,AVAILABLE}
+2017-02-23 22:18:57.212  INFO 16944 --- [main] org.eclipse.jetty.server.Server          : Started @4392ms
+2017-02-23 22:18:58.355  INFO 16944 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@57f6b2, org.springframework.security.web.context.SecurityContextPersistenceFilter@8b819d, org.springframework.security.web.header.HeaderWriterFilter@149f14d, org.springframework.security.web.csrf.CsrfFilter@15ca7de, org.springframework.security.web.authentication.logout.LogoutFilter@bd2871, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@125ab31, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@ca611f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7d9b41, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1515eab, org.springframework.security.web.session.SessionManagementFilter@db6fca, org.springframework.security.web.access.ExceptionTranslationFilter@1066363, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1add690]
+2017-02-23 22:18:58.476  INFO 16944 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1083826: startup date [Thu Feb 23 22:18:54 CST 2017]; root of context hierarchy
+2017-02-23 22:18:58.541  INFO 16944 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/security/openid]}" onto public com.lijuyong.Domain.Model.JsonResult com.lijuyong.Controller.SecurityController.openIdAuth()
+2017-02-23 22:18:58.542  INFO 16944 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/security/logout],methods=[POST]}" onto public com.lijuyong.Domain.Model.JsonResult com.lijuyong.Controller.SecurityController.logout()
+2017-02-23 22:18:58.546  INFO 16944 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/]}" onto public java.lang.String com.lijuyong.Controller.UserController.index()
+2017-02-23 22:18:58.547  INFO 16944 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/admin]}" onto public com.lijuyong.Domain.Model.User com.lijuyong.Controller.UserController.administrator()
+2017-02-23 22:18:58.547  INFO 16944 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/lstUrls]}" onto public java.util.List<com.lijuyong.Domain.dao.model.LinkDO> com.lijuyong.Controller.UserController.listCrawlUrl()
+2017-02-23 22:18:58.547  INFO 16944 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/getsession]}" onto public com.lijuyong.Domain.Model.SessionData com.lijuyong.Controller.UserController.getSession(javax.servlet.http.HttpServletRequest)
+2017-02-23 22:18:58.548  INFO 16944 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/forbidden]}" onto public com.lijuyong.Domain.Model.JsonResult com.lijuyong.Controller.UserController.forbidden()
+2017-02-23 22:18:58.548  INFO 16944 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/searchUrls/{houseId}]}" onto public java.util.List<com.lijuyong.Domain.dao.model.LinkDO> com.lijuyong.Controller.UserController.searchCrawlUrl(java.lang.String)
+2017-02-23 22:18:58.548  INFO 16944 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/setsession]}" onto public com.lijuyong.Domain.Model.SessionData com.lijuyong.Controller.UserController.setSession(javax.servlet.http.HttpServletRequest)
+2017-02-23 22:18:58.548  INFO 16944 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/link]}" onto public com.lijuyong.Domain.dao.model.LinkDO com.lijuyong.Controller.UserController.crawLink()
+2017-02-23 22:18:58.548  INFO 16944 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/showUser],params=[id]}" onto public com.lijuyong.Domain.dao.model.UserDO com.lijuyong.Controller.UserController.showUser(java.lang.Integer)
+2017-02-23 22:18:58.548  INFO 16944 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/hello]}" onto public com.lijuyong.Domain.Model.JsonResult com.lijuyong.Controller.UserController.hello()
+2017-02-23 22:18:58.551  INFO 16944 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-02-23 22:18:58.551  INFO 16944 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-02-23 22:18:58.577  INFO 16944 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/user/test] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2017-02-23 22:18:58.577  INFO 16944 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/login] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2017-02-23 22:18:58.592  INFO 16944 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-02-23 22:18:58.592  INFO 16944 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-02-23 22:18:58.619  INFO 16944 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in exceptionAdvice
+2017-02-23 22:18:58.649  INFO 16944 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-02-23 22:18:59.436  INFO 16944 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-02-23 22:18:59.445  INFO 16944 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2017-02-23 22:18:59.453  INFO 16944 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2017-02-23 22:18:59.467  INFO 16944 --- [main] application                              : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-02-23 22:18:59.467  INFO 16944 --- [main] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2017-02-23 22:18:59.481  INFO 16944 --- [main] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 13 ms
+2017-02-23 22:18:59.498  INFO 16944 --- [main] o.e.jetty.server.AbstractConnector       : Started ServerConnector@f10d0b{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2017-02-23 22:18:59.498  INFO 16944 --- [main] .s.b.c.e.j.JettyEmbeddedServletContainer : Jetty started on port(s) 8080 (http/1.1)
+2017-02-23 22:18:59.503  INFO 16944 --- [main] com.lijuyong.TangtangApplication         : Started TangtangApplication in 6.049 seconds (JVM running for 6.683)
+2017-02-23 22:20:21.036  INFO 16944 --- [qtp2610077-14] com.lijuyong.Controller.UserController   : 这是一个简单的日志
+2017-02-23 22:37:24.092  INFO 16944 --- [qtp2610077-18] com.lijuyong.Controller.UserController   : 这是一个简单的日志
+2017-02-23 22:54:29.161  INFO 15124 --- [main] com.lijuyong.TangtangApplication         : Starting TangtangApplication on DESKTOP-GTCTV3N with PID 15124 (E:\phabricator\tangtang-spring-boot\target\classes started by john in E:\phabricator\tangtang-spring-boot)
+2017-02-23 22:54:29.165  INFO 15124 --- [main] com.lijuyong.TangtangApplication         : No active profile set, falling back to default profiles: default
+2017-02-23 22:54:29.544  INFO 15124 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1083826: startup date [Thu Feb 23 22:54:29 CST 2017]; root of context hierarchy
+2017-02-23 22:54:30.412  INFO 15124 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-02-23 22:54:30.830  INFO 15124 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration' of type [class org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-02-23 22:54:30.906  INFO 15124 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'validator' of type [class org.springframework.validation.beanvalidation.LocalValidatorFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-02-23 22:54:30.943  INFO 15124 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2b392454] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-02-23 22:54:31.184  INFO 15124 --- [main] org.eclipse.jetty.util.log               : Logging initialized @2898ms to org.eclipse.jetty.util.log.Slf4jLog
+2017-02-23 22:54:31.383  INFO 15124 --- [main] e.j.JettyEmbeddedServletContainerFactory : Server initialized with port: 8080
+2017-02-23 22:54:31.385  INFO 15124 --- [main] org.eclipse.jetty.server.Server          : jetty-9.4.1.v20170120
+2017-02-23 22:54:31.491  INFO 15124 --- [main] org.eclipse.jetty.server.session         : DefaultSessionIdManager workerName=node0
+2017-02-23 22:54:31.491  INFO 15124 --- [main] org.eclipse.jetty.server.session         : No SessionScavenger set, using defaults
+2017-02-23 22:54:31.496  INFO 15124 --- [main] org.eclipse.jetty.server.session         : Scavenging every 660000ms
+2017-02-23 22:54:31.502  INFO 15124 --- [main] application                              : Initializing Spring embedded WebApplicationContext
+2017-02-23 22:54:31.502  INFO 15124 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1962 ms
+2017-02-23 22:54:31.816  INFO 15124 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-02-23 22:54:31.816  INFO 15124 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'springSessionRepositoryFilter' to: [/*]
+2017-02-23 22:54:31.816  INFO 15124 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-02-23 22:54:31.817  INFO 15124 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-02-23 22:54:31.817  INFO 15124 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-02-23 22:54:31.818  INFO 15124 --- [main] .s.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2017-02-23 22:54:31.818  INFO 15124 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-02-23 22:54:32.127  INFO 15124 --- [main] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.c.e.j.JettyEmbeddedWebAppContext@f1fd08{/,file:///C:/Users/john/AppData/Local/Temp/jetty-docbase.2518873077800356765.8080/,AVAILABLE}
+2017-02-23 22:54:32.127  INFO 15124 --- [main] org.eclipse.jetty.server.Server          : Started @3843ms
+2017-02-23 22:54:33.128  INFO 15124 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4632e9, org.springframework.security.web.context.SecurityContextPersistenceFilter@db6fca, org.springframework.security.web.header.HeaderWriterFilter@1066363, org.springframework.security.web.csrf.CsrfFilter@1a467c2, org.springframework.security.web.authentication.logout.LogoutFilter@11b1c2a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1000fe6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@16185fe, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@be2e47, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@14c8f29, org.springframework.security.web.session.SessionManagementFilter@1248a48, org.springframework.security.web.access.ExceptionTranslationFilter@c7d00d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1db86bf]
+2017-02-23 22:54:33.310  INFO 15124 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1083826: startup date [Thu Feb 23 22:54:29 CST 2017]; root of context hierarchy
+2017-02-23 22:54:33.380  INFO 15124 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/security/openid]}" onto public com.lijuyong.Domain.Model.JsonResult com.lijuyong.Controller.SecurityController.openIdAuth()
+2017-02-23 22:54:33.381  INFO 15124 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/security/logout],methods=[POST]}" onto public com.lijuyong.Domain.Model.JsonResult com.lijuyong.Controller.SecurityController.logout()
+2017-02-23 22:54:33.387  INFO 15124 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/]}" onto public java.lang.String com.lijuyong.Controller.UserController.index()
+2017-02-23 22:54:33.387  INFO 15124 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/admin]}" onto public com.lijuyong.Domain.Model.User com.lijuyong.Controller.UserController.administrator()
+2017-02-23 22:54:33.387  INFO 15124 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/lstUrls]}" onto public java.util.List<com.lijuyong.Domain.dao.model.LinkDO> com.lijuyong.Controller.UserController.listCrawlUrl()
+2017-02-23 22:54:33.387  INFO 15124 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/showUser],params=[id]}" onto public com.lijuyong.Domain.dao.model.UserDO com.lijuyong.Controller.UserController.showUser(java.lang.Integer)
+2017-02-23 22:54:33.388  INFO 15124 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/hello]}" onto public com.lijuyong.Domain.Model.JsonResult com.lijuyong.Controller.UserController.hello()
+2017-02-23 22:54:33.388  INFO 15124 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/link]}" onto public com.lijuyong.Domain.dao.model.LinkDO com.lijuyong.Controller.UserController.crawLink()
+2017-02-23 22:54:33.388  INFO 15124 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/logtest]}" onto public com.lijuyong.Domain.Model.JsonResult com.lijuyong.Controller.UserController.logtest()
+2017-02-23 22:54:33.388  INFO 15124 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/setsession]}" onto public com.lijuyong.Domain.Model.SessionData com.lijuyong.Controller.UserController.setSession(javax.servlet.http.HttpServletRequest)
+2017-02-23 22:54:33.388  INFO 15124 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/searchUrls/{houseId}]}" onto public java.util.List<com.lijuyong.Domain.dao.model.LinkDO> com.lijuyong.Controller.UserController.searchCrawlUrl(java.lang.String)
+2017-02-23 22:54:33.389  INFO 15124 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/forbidden]}" onto public com.lijuyong.Domain.Model.JsonResult com.lijuyong.Controller.UserController.forbidden()
+2017-02-23 22:54:33.389  INFO 15124 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/getsession]}" onto public com.lijuyong.Domain.Model.SessionData com.lijuyong.Controller.UserController.getSession(javax.servlet.http.HttpServletRequest)
+2017-02-23 22:54:33.390  INFO 15124 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-02-23 22:54:33.391  INFO 15124 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-02-23 22:54:33.409  INFO 15124 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/user/test] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2017-02-23 22:54:33.409  INFO 15124 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/login] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2017-02-23 22:54:33.438  INFO 15124 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-02-23 22:54:33.439  INFO 15124 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-02-23 22:54:33.462  INFO 15124 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in exceptionAdvice
+2017-02-23 22:54:33.484  INFO 15124 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-02-23 22:54:34.174  INFO 15124 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-02-23 22:54:34.182  INFO 15124 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2017-02-23 22:54:34.191  INFO 15124 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2017-02-23 22:54:34.202  INFO 15124 --- [main] application                              : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-02-23 22:54:34.203  INFO 15124 --- [main] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2017-02-23 22:54:34.215  INFO 15124 --- [main] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 11 ms
+2017-02-23 22:54:34.229  INFO 15124 --- [main] o.e.jetty.server.AbstractConnector       : Started ServerConnector@3c24fa{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2017-02-23 22:54:34.229  INFO 15124 --- [main] .s.b.c.e.j.JettyEmbeddedServletContainer : Jetty started on port(s) 8080 (http/1.1)
+2017-02-23 22:54:34.234  INFO 15124 --- [main] com.lijuyong.TangtangApplication         : Started TangtangApplication in 5.477 seconds (JVM running for 5.95)
+2017-02-23 22:54:44.342 ERROR 15124 --- [qtp32011710-18] com.lijuyong.Infra.ExceptionAdvice       : 这个是一个伟大的异常
+
+java.lang.IllegalArgumentException: 这个是一个测试日志的异常
+	at com.lijuyong.Controller.UserController.logtest(UserController.java:84) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_111]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_111]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133) ~[spring-web-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:116) ~[spring-webmvc-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827) ~[spring-webmvc-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738) ~[spring-webmvc-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) ~[spring-webmvc-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897) ~[spring-webmvc-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) [spring-webmvc-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861) [spring-webmvc-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) [spring-webmvc-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:841) [jetty-servlet-9.4.1.v20170120.jar:9.4.1.v20170120]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1634) [jetty-servlet-9.4.1.v20170120.jar:9.4.1.v20170120]
+	at org.eclipse.jetty.websocket.server.WebSocketUpgradeFilter.doFilter(WebSocketUpgradeFilter.java:206) [websocket-server-9.4.1.v20170120.jar:9.4.1.v20170120]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1621) [jetty-servlet-9.4.1.v20170120.jar:9.4.1.v20170120]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:317) [spring-security-web-4.2.1.RELEASE.jar:4.2.1.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127) [spring-security-web-4.2.1.RELEASE.jar:4.2.1.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91) [spring-security-web-4.2.1.RELEASE.jar:4.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331) [spring-security-web-4.2.1.RELEASE.jar:4.2.1.RELEASE]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:114) [spring-security-web-4.2.1.RELEASE.jar:4.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331) [spring-security-web-4.2.1.RELEASE.jar:4.2.1.RELEASE]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137) [spring-security-web-4.2.1.RELEASE.jar:4.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331) [spring-security-web-4.2.1.RELEASE.jar:4.2.1.RELEASE]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111) [spring-security-web-4.2.1.RELEASE.jar:4.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331) [spring-security-web-4.2.1.RELEASE.jar:4.2.1.RELEASE]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170) [spring-security-web-4.2.1.RELEASE.jar:4.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331) [spring-security-web-4.2.1.RELEASE.jar:4.2.1.RELEASE]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) [spring-security-web-4.2.1.RELEASE.jar:4.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331) [spring-security-web-4.2.1.RELEASE.jar:4.2.1.RELEASE]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200) [spring-security-web-4.2.1.RELEASE.jar:4.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331) [spring-security-web-4.2.1.RELEASE.jar:4.2.1.RELEASE]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116) [spring-security-web-4.2.1.RELEASE.jar:4.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331) [spring-security-web-4.2.1.RELEASE.jar:4.2.1.RELEASE]
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:100) [spring-security-web-4.2.1.RELEASE.jar:4.2.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331) [spring-security-web-4.2.1.RELEASE.jar:4.2.1.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:64) [spring-security-web-4.2.1.RELEASE.jar:4.2.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331) [spring-security-web-4.2.1.RELEASE.jar:4.2.1.RELEASE]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105) [spring-security-web-4.2.1.RELEASE.jar:4.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331) [spring-security-web-4.2.1.RELEASE.jar:4.2.1.RELEASE]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56) [spring-security-web-4.2.1.RELEASE.jar:4.2.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331) [spring-security-web-4.2.1.RELEASE.jar:4.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:214) [spring-security-web-4.2.1.RELEASE.jar:4.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:177) [spring-security-web-4.2.1.RELEASE.jar:4.2.1.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346) [spring-web-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:262) [spring-web-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1621) [jetty-servlet-9.4.1.v20170120.jar:9.4.1.v20170120]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1621) [jetty-servlet-9.4.1.v20170120.jar:9.4.1.v20170120]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105) [spring-web-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1621) [jetty-servlet-9.4.1.v20170120.jar:9.4.1.v20170120]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81) [spring-web-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1621) [jetty-servlet-9.4.1.v20170120.jar:9.4.1.v20170120]
+	at org.springframework.session.web.http.SessionRepositoryFilter.doFilterInternal(SessionRepositoryFilter.java:167) [spring-session-1.3.0.RELEASE.jar:na]
+	at org.springframework.session.web.http.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:80) [spring-session-1.3.0.RELEASE.jar:na]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1621) [jetty-servlet-9.4.1.v20170120.jar:9.4.1.v20170120]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197) [spring-web-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1621) [jetty-servlet-9.4.1.v20170120.jar:9.4.1.v20170120]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:541) [jetty-servlet-9.4.1.v20170120.jar:9.4.1.v20170120]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143) [jetty-server-9.4.1.v20170120.jar:9.4.1.v20170120]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548) [jetty-security-9.4.1.v20170120.jar:9.4.1.v20170120]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) [jetty-server-9.4.1.v20170120.jar:9.4.1.v20170120]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:190) [jetty-server-9.4.1.v20170120.jar:9.4.1.v20170120]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1584) [jetty-server-9.4.1.v20170120.jar:9.4.1.v20170120]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188) [jetty-server-9.4.1.v20170120.jar:9.4.1.v20170120]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1228) [jetty-server-9.4.1.v20170120.jar:9.4.1.v20170120]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168) [jetty-server-9.4.1.v20170120.jar:9.4.1.v20170120]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:481) [jetty-servlet-9.4.1.v20170120.jar:9.4.1.v20170120]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1553) [jetty-server-9.4.1.v20170120.jar:9.4.1.v20170120]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166) [jetty-server-9.4.1.v20170120.jar:9.4.1.v20170120]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1130) [jetty-server-9.4.1.v20170120.jar:9.4.1.v20170120]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) [jetty-server-9.4.1.v20170120.jar:9.4.1.v20170120]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) [jetty-server-9.4.1.v20170120.jar:9.4.1.v20170120]
+	at org.eclipse.jetty.server.Server.handle(Server.java:564) [jetty-server-9.4.1.v20170120.jar:9.4.1.v20170120]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:320) [jetty-server-9.4.1.v20170120.jar:9.4.1.v20170120]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251) [jetty-server-9.4.1.v20170120.jar:9.4.1.v20170120]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279) [jetty-io-9.4.1.v20170120.jar:9.4.1.v20170120]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:112) [jetty-io-9.4.1.v20170120.jar:9.4.1.v20170120]
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124) [jetty-io-9.4.1.v20170120.jar:9.4.1.v20170120]
+	at org.eclipse.jetty.util.thread.Invocable.invokePreferred(Invocable.java:122) [jetty-util-9.4.1.v20170120.jar:9.4.1.v20170120]
+	at org.eclipse.jetty.util.thread.strategy.ExecutingExecutionStrategy.invoke(ExecutingExecutionStrategy.java:58) [jetty-util-9.4.1.v20170120.jar:9.4.1.v20170120]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:201) [jetty-util-9.4.1.v20170120.jar:9.4.1.v20170120]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:133) [jetty-util-9.4.1.v20170120.jar:9.4.1.v20170120]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:672) [jetty-util-9.4.1.v20170120.jar:9.4.1.v20170120]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:590) [jetty-util-9.4.1.v20170120.jar:9.4.1.v20170120]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+
