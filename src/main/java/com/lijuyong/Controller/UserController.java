@@ -4,6 +4,8 @@ import com.lijuyong.Domain.dao.mapper.House365Mapper;
 import com.lijuyong.Domain.dao.mapper.UserMapper;
 import com.lijuyong.Domain.dao.model.LinkDO;
 import com.lijuyong.Domain.dao.model.UserDO;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -24,6 +26,8 @@ public class UserController {
     private House365Mapper house365Mapper;
     @Autowired
     private UserMapper userMapper;
+
+    private Logger log = LoggerFactory.getLogger(this.getClass());
 
     @RequestMapping("/")
     public String index(){
@@ -55,7 +59,7 @@ public class UserController {
 
 
 
-    
+
 
     @RequestMapping("/setsession")
     public SessionData setSession(HttpServletRequest request){
@@ -76,6 +80,7 @@ public class UserController {
     }
     @RequestMapping("/hello")
     public JsonResult hello(){
+        log.info("这是一个简单的日志");
         return  new JsonResult(403,"这是一个伟大的开端");
     }
 
